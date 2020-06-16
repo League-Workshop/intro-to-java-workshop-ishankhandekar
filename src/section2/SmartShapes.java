@@ -1,20 +1,27 @@
 package section2;
 
+import java.util.Random;
+
 import org.jointheleague.graphical.robot.Robot;
 
 public class SmartShapes {
 	
     public static void main(String[] args) throws Exception {
-        // 1. Make a new Robot
+        Robot Shapes = new Robot();
+         int randomNun = new Random().nextInt(100) + 1;
+
+        int turntriangle = (60);
+
+        Shapes.penDown();
 
 
-        // 3. Put the robot's pen down
+        Shapes.setSpeed(100);
 
 
-        // 6. Make the robot move as fast as possible
-
-
-        // 5. Use a for loop to repeat everything below 4 times. 
+        for (int i = 0; i < 4; i++) {
+			Shapes.move(200);
+			Shapes.turn(90);
+		} 
 
 
         //         2. Move your robot 200 pixels
