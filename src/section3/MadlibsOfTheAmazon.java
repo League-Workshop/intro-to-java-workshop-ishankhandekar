@@ -19,10 +19,14 @@ public class MadlibsOfTheAmazon {
 		String bodyPart = JOptionPane.showInputDialog("Name a part of your body");
 
 		// Get the user to enter a verb
-		String verb =JOptionPane.showInputDialog("Name a verb")
+		String verb =JOptionPane.showInputDialog("Name a verb");
+		String place =JOptionPane.showInputDialog("Name a place");
 
 		// Get the user to enter a place
-		String verb =JOptionPane.showMessageDialog(null, "Piranhas are more" + adjective + "during the day,so cross the river at night."
+		JOptionPane.showMessageDialog(null, "Piranhas are more " + adjective + " during the day,\n"+
+		 " so cross the river at night. Piranahas are attracted to fresh " + liquid + " and will most likely\n"+
+		" take a bite out of your " + bodyPart + " if your " + verb + ".Whatever you do, if you have an\n" +
+		 " open wound, try to find another way to get back to the " + place + ". Good luck!");
 				
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
