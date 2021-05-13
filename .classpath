@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="en_us.jar"/>
 	<classpathentry kind="lib" path="freetts-jsapi10.jar"/>
 	<classpathentry kind="lib" path="freetts.jar"/>
+	<classpathentry kind="lib" path="C:/Ptolemy/ptII11.0.1/ptolemy/plot/plotapplication.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

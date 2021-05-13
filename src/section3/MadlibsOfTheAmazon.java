@@ -28,14 +28,7 @@ public class MadlibsOfTheAmazon {
 		" take a bite out of your " + bodyPart + " if your " + verb + ".Whatever you do, if you have an\n" +
 		 " open wound, try to find another way to get back to the " + place + ". Good luck!");
 				
-		// Fit the user's words into this sentence, and save it in a String:
-		// Piranhas are more [adjective] during the day, so cross the river at
-		// night. Piranhas are attracted to fresh [type of liquid] and will most
-		// likely take a bite out of your [body part] if you [verb]. Whatever
-		// you do, if you have an open wound, try to find another way to get
-		// back to the [place]. Good luck!
 		
-		// Make a pop-up for the final story. You can use \n to go to the next line
 		
 
 	}

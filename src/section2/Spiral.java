@@ -9,7 +9,7 @@ public class Spiral {
 		
 		cat.penDown();
 		
-		cat.setSpeed(100);
+		cat.setSpeed(2000000);
 		
 		for (int i = 0; i < 1000; i++) {
 		cat.setRandomPenColor();

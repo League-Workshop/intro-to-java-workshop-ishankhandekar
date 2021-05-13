@@ -1,5 +1,7 @@
 package zebra.section1;
 
+import javax.swing.JOptionPane;
+
 public class RobotFreestyle {
 	
 	public static void main(String[] args) {
@@ -18,7 +20,21 @@ public class RobotFreestyle {
 		// 5. Make your robot move() some more.  What do you see?
 		
 		// 6. Can you make your robot draw a square?  A triangle?  Something cool?
-		
+		String[] options = {"1", "2", "3", "4"};
+        int colorop = JOptionPane.showOptionDialog(null, "Choose a number",
+                "Choose a number",
+                JOptionPane.INFORMATION_MESSAGE, JOptionPane.INFORMATION_MESSAGE, null, options, null);
+        if(colorop==0)    {
+             System.out.println("1");
+        }
+        if(colorop==1)    {
+        	  System.out.println("2");
+        }
+        if(colorop==2) {
+        	  System.out.println("3");        }
+        if(colorop==3)    {
+        	  System.out.println("4");        }
+
 		
 		
 		

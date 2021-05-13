@@ -12,7 +12,7 @@ public class QuizGame {
 		// 1.  Create a variable to hold the user's score 
 		int score = 0;
 		// 2.  Ask the user a question
-		
+		int randomNumbers[0,0,0,0];
 		String question1 = null;
 		String question2 = null;
 		String question3 = null;
